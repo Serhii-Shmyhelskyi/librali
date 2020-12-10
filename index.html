@@ -5,11 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img class="header__logo-image" src="images/logo.png" alt="">
+                </div>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Browse</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">A-Z Index</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">About</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">FAQs</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">User Guide</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="searchbar" class="header__images">
+                    <div id="searchbar-lit" class="header__icons-search">
+                        <input class="serch__input" type="text" id="search-input" placeholder="Search" />
+                    </div>
+                    <div class="header__icons-link">
+                        <a class="header__icons-link header__icons-link--search" href="#">
+                            <img class="header__images-img" src="images/search.png" alt="search">
+                        </a>
+                    </div>
+                    <div class="header__icons-link">
+                        <a href="#">
+                            <img class="header__images-img" src="images/account.png" alt="account">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
