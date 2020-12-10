@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -15,7 +16,10 @@
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo">
-                    <img class="header__logo-image" src="images/logo.png" alt="">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo-image" src="images/logo.png" alt="">
+                    </a>
+
                 </div>
                 <nav class="header__menu">
                     <ul class="menu__list">
@@ -47,7 +51,8 @@
                     </div>
                     <div class="header__icons-link">
                         <a href="#">
-                            <img class="header__images-img" src="images/account.png" alt="account">
+                            <img class="header__images-img header__images-account" src="images/account.png"
+                                alt="account">
                         </a>
                     </div>
                 </div>
@@ -55,10 +60,43 @@
         </div>
     </header>
 
+    <section class="read">
+        <div class="container">
+            <div class="read__container swiper-container ">
+                <div class="read__wrapper swiper-wrapper">
+                    <div class="read__inner swiper-slide">
+                        <p class="read__subtitle">Dont just take our word for it!</p>
+                        <h1 class="read__title">Read librarian reviews of the R2 Digital Librar</h1>
+                        <a class="read__button" href="#">GO TO THE REVIEWS SECTION</a>
+                        <img class="read__logo-big" src="images/read-img-logo.png" alt="big logo">
+                    </div>
+                    <div class="read__inner swiper-slide">
+                        <p class="read__subtitle">Dont just take our word for it!</p>
+                        <h1 class="read__title">Read librarian reviews of the R2 Digital Librar</h1>
+                        <a class="read__button" href="#">GO TO THE REVIEWS SECTION</a>
+                        <img class="read__logo-big" src="images/read-img-logo.png" alt="big logo">
+                    </div>
+                    <div class="read__inner swiper-slide">
+                        <p class="read__subtitle">Dont just take our word for it!</p>
+                        <h1 class="read__title">Read librarian reviews of the R2 Digital Librar</h1>
+                        <a class="read__button" href="#">GO TO THE REVIEWS SECTION</a>
+                        <img class="read__logo-big" src="images/read-img-logo.png" alt="big logo">
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+                    >
+                </div>
+                <div class="swiper-button-next">
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
