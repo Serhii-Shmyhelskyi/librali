@@ -17,6 +17,7 @@ var mySwiper = new Swiper('.read__container', {
 var mySwiper2 = new Swiper('.recentl__container', {
     slidesPerView: 4,
     spaceBetween: 20,
+    initialSlide: 0,
     speed: 1000,
     navigation: {
         nextEl: '.recentl-button-next',
