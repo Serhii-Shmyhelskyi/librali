@@ -9,8 +9,28 @@ var mySwiper = new Swiper('.read__container', {
     speed: 1000,
     loop: true,
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.read-button-next',
+        prevEl: '.read-button-prev',
     },
+})
 
+var mySwiper2 = new Swiper('.recentl__container', {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    speed: 1000,
+    navigation: {
+        nextEl: '.recentl-button-next',
+        prevEl: '.recentl-button-prev',
+    },
+})
+
+var mySwiper3 = new Swiper('.popular__container', {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    speed: 1000,
+    initialSlide: 4,
+    navigation: {
+        nextEl: '.recentl-button-next',
+        prevEl: '.recentl-button-prev',
+    },
 })
