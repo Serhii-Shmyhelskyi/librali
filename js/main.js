@@ -23,6 +23,18 @@ var mySwiper2 = new Swiper('.recentl__container', {
         nextEl: '.recentl-button-next',
         prevEl: '.recentl-button-prev',
     },
+    breakpoints: {
+
+        320: {
+            slidesPerView: 2,
+        },
+        800: {
+            slidesPerView: 3,
+        },
+        990: {
+            slidesPerView: 4,
+        }
+    }
 })
 
 var mySwiper3 = new Swiper('.popular__container', {
@@ -34,4 +46,16 @@ var mySwiper3 = new Swiper('.popular__container', {
         nextEl: '.recentl-button-next',
         prevEl: '.recentl-button-prev',
     },
+    breakpoints: {
+
+        320: {
+            slidesPerView: 2,
+        },
+        800: {
+            slidesPerView: 3,
+        },
+        990: {
+            slidesPerView: 4,
+        }
+    }
 })
