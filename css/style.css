@@ -309,6 +309,7 @@ h1,h2,h3,h4,h5,h6 {
 .trial__free-title {
     font-size: 14px;
     line-height: 16px;
+    font-weight: normal;
     font-family: 'SFProDisplay-Medium';
     color: #50E3C2;
     margin-bottom: 10px;
