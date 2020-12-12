@@ -736,7 +736,7 @@ h1,h2,h3,h4 {
     grid-gap: 20px 20px;
     margin: 0 auto 80px;;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: repeat(9, 1fr);
+    grid-auto-rows: auto;
 }
 
 .trialboxes__inner-box:nth-child(1){
@@ -843,8 +843,6 @@ h1,h2,h3,h4 {
         background-color: #fff;
     }
 }
-
-
 
 @media (max-width: 990px) {
     .header {
@@ -1009,7 +1007,7 @@ h1,h2,h3,h4 {
     .footer__copy {
         font-size: 12px;
         line-height: 14px;
-        
+    }      
 }
 
 @media (max-width: 968px)  {
@@ -1040,5 +1038,5 @@ h1,h2,h3,h4 {
     .read-button-prev, .read-container-rtl .read-button-next {
         left: 31%;
         top: -21px;
-    }
+    }    
 }
