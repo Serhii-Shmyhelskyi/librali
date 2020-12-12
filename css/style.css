@@ -84,7 +84,7 @@ ul {
     padding-left: 0;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 
@@ -593,6 +593,10 @@ h1,h2,h3,h4 {
 .boxes__box-text {
     margin: 0 60px 60px 60px;
     color: #3D3D3D;
+    font-family: 'SFProDisplay-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .boxes__box-text--bg {
